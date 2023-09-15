@@ -1,0 +1,29 @@
+{
+  "name": "my-react-components",
+  "version": "1.0.0", 
+  "description": "Описание вашего пакета",
+  "main": "dist/index.js", 
+  "module": "dist/index.esm.js", 
+  "types": "dist/index.d.ts", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SerhiiDubinskyi/my-component-example.git" 
+  },
+  "author": "Ваше имя",
+  "license": "MIT", 
+  "dependencies": {
+    "react": "^16.8.0", 
+    "react-dom": "^16.8.0" 
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0" 
+  },
+  "scripts": {
+    "build": "tsc && npm run build:types", 
+    "build:types": "tsc --declaration --declarationDir dist" 
+  }
+}

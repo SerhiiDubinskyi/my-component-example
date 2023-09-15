@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",                    // Целевая версия ECMAScript (ES5)
+      "module": "commonjs",               // Формат модулей (CommonJS)
+      "outDir": "dist",                   // Директория для скомпилированных файлов
+      "declaration": true,                // Генерировать файлы типов (.d.ts)
+      "jsx": "react",                     // Поддержка JSX
+      "esModuleInterop": true,            // Разрешить импорт ES модулей как CommonJS
+      "skipLibCheck": true,               // Пропустить проверку библиотек
+      "forceConsistentCasingInFileNames": true, // Проверять на соответствие регистру имен файлов
+      // Другие настройки TypeScript
+    },
+    "include": ["src/**/*.tsx", "src/**/*.ts"], // Файлы TypeScript, которые должны быть включены в компиляцию
+    "exclude": ["node_modules"] // Директории, которые не должны быть включены в компиляцию
+  }
+  
